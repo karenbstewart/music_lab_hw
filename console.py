@@ -13,6 +13,9 @@ artist_repository.save(artist2)
 album1 = Album("Funhouse", "pop", artist1)
 album_repository.save(album1)
 
+artist_list = artist_repository.select_all()
+print(artist_list)
+
 
 
 pdb.set_trace()
